@@ -90,3 +90,50 @@ Dictionaries have no concept of order among elements.
 	ord(x)
 	hex(x)
 	oct(x)
+### Python Decision Making
+Decision making is anticipation of conditions occurring while execution of program and specifying actions taken according to the condition.
+
+Decision structures evalusate multiple expressions which produce true or false as outcome. You need to determine which ation to take and which statements to execute if outcome is true or false otherwise
+
+Python programming language assumes any non-zero and non-null values are true, and if it is either zero or null, then is is assumed as false value
+
+* if statements
+	`
+		if expression:
+			statements(s)
+	`	
+* if...else statements
+	`
+		if expression:
+			statements(s)
+		else
+			statements(s)
+	`
+* elif statements
+	`
+		if expression1:
+			statements(s)
+		elif expression2:
+			statements(s)
+		elif expression3:
+			statements(s)
+		else:
+			statements(s)
+	`
+
+### Python Loops
+
+* while loop
+	`
+	while expression:
+		statements(s)
+	`
+* using else statement with loops
+	`
+	while expression:
+		statements(s)
+	else:
+		statements
+
+	`
+* single statement suites
